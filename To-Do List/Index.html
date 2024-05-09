@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Script/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="theme-switch">
+            <div class="switch"></div>
+        </div>
+         <div class="todo-main">
+            <h2>To-Do List <img src="ICÔNES/to-do-list.png" width="7%"></h2>
+            <div class="row">
+                <input type="text" id="tache" placeholder="Ajouter la tâche">
+                <button onclick="addTask()" id="addTaskBtn">Ajouter</button>
+             </div>
+             <ul id="list-container">
+             </ul>
+         </div>
+    </div>
+    <footer>
+      <div class="foot">
+       <div class="wave">&copy; 2023 TOJO NY AINA. Tous droits réservés.</div>
+       <div class="wave"></div>
+       <div class="wave"></div>
+   </div>
+
+ </footer>
+    <script src="Script/script.js"></script>
+</body>
+</html>
